@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Grid, CircularProgress } from '@material-ui/core'
 import socketIOClient from 'socket.io-client'
 import PumpComponent from './pumpStatus/PumpComponent'
-const ENDPOINT = 'http://shuinland.servebeer.com:4001'
+const ENDPOINT = 'https://shuinland.servebeer.com:4001'
 
 export default function ClientComponent(props) {
   const [pumps, setPumps] = useState([])
